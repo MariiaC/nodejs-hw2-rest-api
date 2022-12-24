@@ -130,7 +130,7 @@ export const getCurrentUser = async (req, res, next) => {
         user: {
             email: req.user.email,
             subscription: req.user.subscription,
-             avatarURL: req.user.avatarURL
+            avatarURL: req.user.avatarURL
         },
     });
 };
